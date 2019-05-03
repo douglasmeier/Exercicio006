@@ -1,33 +1,34 @@
-MatÈria: ProgramaÁ„o Orientada a Objetos 
+Programa√ß√£o Orientada a Objetos 
  
-Curso: Sistemas de InformaÁ„o 
+Sistemas de Informa√ß√£o 
  
 Douglas Felipe Meier 
 
  
-ExercÌcios  
+Exerc√≠cios  
 
-1 ñ O que È um objeto? 
+1 ‚Äì O que √© um objeto? 
 
-… uma coisa, entidade que podemos imaginar e que tenha uma identidade.
+√â uma coisa, entidade que podemos imaginar e que tenha uma identidade.
  
-2 ñ Identifique 3 caracterÌsticas e 3 comportamentos de um carro: 
+2 ‚Äì Identifique 3 caracter√≠sticas e 3 comportamentos de um carro: 
 
-CaracterÌsticas: possui portas, pneus, motor 
+Caracter√≠sticas: possui portas, pneus, motor 
 Comportamento: parado, em movimento, 
 
-3 - No contexto de OrientaÁ„o a Objetos, as caracterÌsticas e comportamentos s„o chamados respectivamente de? 
+3 - No contexto de Orienta√ß√£o a Objetos, as caracter√≠sticas e comportamentos s√£o chamados respectivamente de? 
 
-R: 
+Caracter√≠sticas s√£o os atributos do objeto. 
+Comportamentos s√£o os m√©todos da classe. 
 
-4 - Qual È o objetivo da programaÁ„o orientada a objetos? 
+4 - Qual √© o objetivo da programa√ß√£o orientada a objetos? 
 
-Alguns dos objetivos È reduzir a complexidade no desenvolvimento de softwares e aumentar a produtividade.
+Alguns dos objetivos √© reduzir a complexidade no desenvolvimento de softwares e aumentar a produtividade.
  
-5 ñ O que È abstraÁ„o? Cite um exemplo 
+5 ‚Äì O que √© abstra√ß√£o? Cite um exemplo 
 
-… a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando caracterÌsticas menos importantes ou acidentais. 
-Exemplo: Uma conta de banco possui as caracterÌsticas de saldo, limite, n˙mero. Sendo as aÁıes possÌveis: sacar, depositar e ver estrato. Aplicando a abstraÁ„o, ficaria da seguinte maneira. 
+√â a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando caracter√≠sticas menos importantes ou acidentais. 
+Exemplo: Uma conta de banco possui as caracter√≠sticas de saldo, limite, n√∫mero. Sendo as a√ß√µes poss√≠veis: sacar, depositar e ver estrato. Aplicando a abstra√ß√£o, ficaria da seguinte maneira. 
 public class Conta {     
     int numero; 
     double saldo; 
@@ -43,102 +44,108 @@ public class Conta {
     } 
 } 
 
-6 - O que È classe? 
+6 - O que √© classe? 
 
-Uma classe È um gabarito para a definiÁ„o de objetos. AtravÈs da definiÁ„o de uma classe, descreve-se que propriedades ou atributos --o objeto ter·. A definiÁ„o de uma classe descreve tambÈm qual o comportamento de objetos da classe, ou seja, que funcionalidades podem ser aplicadas a objetos da classe. 
+Uma classe √© um gabarito para a defini√ß√£o de objetos. Atrav√©s da defini√ß√£o de uma classe, descreve-se que propriedades ou atributos --o objeto ter√°. A defini√ß√£o de uma classe descreve tamb√©m qual o comportamento de objetos da classe, ou seja, que funcionalidades podem ser aplicadas a objetos da classe. 
 
-7 ñ Qual o padr„o utilizado para nomear classes? Cite um exemplo 
+7 ‚Äì Qual o padr√£o utilizado para nomear classes? Cite um exemplo 
 
-Por convenÁ„o, toda classe deve comeÁar com uma letra mai˙scula e n„o pode conter letras com caracteres acentuados. Portanto, n„o È possÌvel declarar uma classe com qualquer caractere especial 
+Por conven√ß√£o, toda classe deve come√ßar com uma letra mai√∫scula e n√£o pode conter letras com caracteres acentuados. Portanto, n√£o √© poss√≠vel declarar uma classe com qualquer caractere especial 
 Exemplo: Pessoa, ContaBanco, RelatorioMes, Compra,... 
 
-8 ñ Qual opÁ„o apresenta corretamente o nome da classe carro elÈtrico? 
+8 ‚Äì Qual op√ß√£o apresenta corretamente o nome da classe carro el√©trico? 
 
 CarroEletrico 
 
-9 - Qual È o padr„o utilizado para nomear os atributos? Cite um exemplo. 
+9 - Qual √© o padr√£o utilizado para nomear os atributos? Cite um exemplo. 
 
-Os atributos (vari·veis) podem comeÁar com qualquer letra e os caracteres $ ou _, porÈm n„o podem comeÁar com n˙meros. 
-Caso o nome de um atributo (vari·vel) seja composto por mais de uma palavra, a primeira letra de cada palavra deve ser em mai˙scula. 
+Os atributos (vari√°veis) podem come√ßar com qualquer letra e os caracteres $ ou _, por√©m n√£o podem come√ßar com n√∫meros. 
+Caso o nome de um atributo (vari√°vel) seja composto por mais de uma palavra, a primeira letra de cada palavra deve ser em mai√∫scula. 
 Exemplo: vendasMes, relatorioMensalLoja, compra... 
 
-10 - Qual opÁ„o apresenta corretamente o nome do atributo cor de fundo? 
+10 - Qual op√ß√£o apresenta corretamente o nome do atributo cor de fundo? 
 
 corDeFundo 
 
-11 - Qual È o padr„o utilizado para nomear os mÈtodos? Cite um exemplo. 
+11 - Qual √© o padr√£o utilizado para nomear os m√©todos? Cite um exemplo. 
 
-MÈtodos (funÁıes) podem comeÁar com qualquer letra min˙scula, n„o podem possuir acentos e n„o podem comeÁar com n˙meros. 
-Caso o nome de um mÈtodo seja composto por mais de uma palavra, a primeira letra da segunda palavra e das palavras posteriores deve ser em mai˙scula. 
+M√©todos (fun√ß√µes) podem come√ßar com qualquer letra min√∫scula, n√£o podem possuir acentos e n√£o podem come√ßar com n√∫meros. 
+Caso o nome de um m√©todo seja composto por mais de uma palavra, a primeira letra da segunda palavra e das palavras posteriores deve ser em mai√∫scula. 
 Exemplo: imprimir, calcularMedia, valorUnitario... 
 
-12 - Qual opÁ„o apresenta corretamente o nome do mÈtodo est· vazio? 
+12 - Qual op√ß√£o apresenta corretamente o nome do m√©todo est√° vazio? 
 
 estaVazio 
 
-13 - No contexto de orientaÁ„o a objetos, o que È um objeto? Em que momento existe um objeto? Quando ele deixa de existir?
+13 - No contexto de orienta√ß√£o a objetos, o que √© um objeto? Em que momento existe um objeto? Quando ele deixa de existir?
 
-R
+Objeto √© uma refer√™ncia a um local da mem√≥ria que possui um valor. Um objeto pode existir quando for instanciado na mem√≥ria, quando 
+se usa o operador new. Deixa de existir quando  o programa √© encerrado. 
 
-14 - Qual È o objetivo do operador new? 
+14 - Qual √© o objetivo do operador new? 
 
-New È utilizado para criar uma nova inst‚ncia de uma determinada classe 
+New √© utilizado para criar uma nova inst√¢ncia de uma determinada classe 
 
-15 - O que È o construtor? Qual È o seu objetivo? Qual deve ser o seu nome? Cite um exemplo. 
+15 - O que √© o construtor? Qual √© o seu objetivo? Qual deve ser o seu nome? Cite um exemplo. 
  
-O construtor È definido como um mÈtodo cujo nome deve ser o mesmo nome da classe e sem indicaÁ„o do tipo de retorno -- nem mesmo void. O construtor È unicamente invocado no momento da criaÁ„o do objeto atravÈs do operador new. Exemplo abaixo. 
+O construtor √© definido como um m√©todo cujo nome deve ser o mesmo nome da classe e sem indica√ß√£o do tipo de retorno -- nem mesmo void. O construtor √© unicamente invocado no momento da cria√ß√£o do objeto atrav√©s do operador new. Exemplo abaixo. 
  
 public class Carro{ 
 /* CONSTRUTOR DA CLASSE Carro  */ 
 public Carro(){ 
-  //FaÁa o que desejar na construÁ„o do objeto 
+  //Fa√ßa o que desejar na constru√ß√£o do objeto 
 } 
 } 
 public class Aplicacao { 
 public static void main(String[] args) {  
-            //Chamamos o construtor sem nenhum par‚metro 
+            //Chamamos o construtor sem nenhum par√¢metro 
 Carro fiat = new Carro();  
 } 
 } 
  
-16 - Caso o construtor da classe Aluno n„o for declarado, qual ser· o seu construtor? 
+16 - Caso o construtor da classe Aluno n√£o for declarado, qual ser√° o seu construtor? 
 
-R
+Seu construtor ser√° Aluno, pois sempre que criamos uma classe, Java automaticamente vincula um m√©todo construtor padr√£o interno 
+com o mesmo nome da classe, mas sem inicializar nenhum atributo. 
 
-17 - Crie um exemplo de instanciaÁ„o da classe Aluno. Utilize o construtor padr„o.
+17 - Crie um exemplo de instancia√ß√£o da classe Aluno. Utilize o construtor padr√£o.
 
-R
+public class Aluno { 
+   public Aluno() {         
+   
+   } 
+} 
 
-18 - O que È encapsulamento? 
+18 - O que √© encapsulamento? 
 
-… a tÈcnica utilizada para esconder uma ideia, ou seja, n„o expÙr detalhes internos para o usu·rio, tornando partes do sistema mais independentes possÌvel. Em programaÁ„o orientada a objetos significa separar o programa em partes, o mais isoladas possÌvel. A ideia È tornar o software mais flexÌvel, f·cil de modificar e de criar novas implementaÁıes. 
+√â a t√©cnica utilizada para esconder uma ideia, ou seja, n√£o exp√¥r detalhes internos para o usu√°rio, tornando partes do sistema mais independentes poss√≠vel. Em programa√ß√£o orientada a objetos significa separar o programa em partes, o mais isoladas poss√≠vel. A ideia √© tornar o software mais flex√≠vel, f√°cil de modificar e de criar novas implementa√ß√µes. 
 
-19 - Qual È o objetivo do modificador de acesso public? 
+19 - Qual √© o objetivo do modificador de acesso public? 
 
-Seu objetivo È acessar a qualquer cÛdigo externo da classe, ela pode ser acessada de qualquer lugar e entidade. 
+Seu objetivo √© acessar a qualquer c√≥digo externo da classe, ela pode ser acessada de qualquer lugar e entidade. 
 
-20 ñ Qual o objetivo de acesso private? 
+20 ‚Äì Qual o objetivo de acesso private? 
 
-Seu objetivo È proibir qualquer acesso externo ‡ prÛpria classe, inclusive das filhas. 
+Seu objetivo √© proibir qualquer acesso externo √† pr√≥pria classe, inclusive das filhas. 
 
-21 ñ Como È aplicado o encapsulamento de uma classe? Considere a classe Aluno com o atributo matrÌcula. 
+21 ‚Äì Como √© aplicado o encapsulamento de uma classe? Considere a classe Aluno com o atributo matr√≠cula. 
 
-O encapsulamento organiza os dados que estejam relacionados, agrupando-os (encapsulando-os) em objetos (classes), reduzindo as colisıes de nomes de vari·veis e, da mesma forma, reunindo mÈtodos relacionados ‡s suas propriedades (ou vari·veis de classe). 
-Um mecanismo da linguagem de programaÁ„o para restringir o acesso a alguns componentes dos objetos, escondendo os dados de uma classe e tornando-os disponÌveis somente atravÈs de mÈtodos. 
+O encapsulamento organiza os dados que estejam relacionados, agrupando-os (encapsulando-os) em objetos (classes), reduzindo as colis√µes de nomes de vari√°veis e, da mesma forma, reunindo m√©todos relacionados √†s suas propriedades (ou vari√°veis de classe). 
+Um mecanismo da linguagem de programa√ß√£o para restringir o acesso a alguns componentes dos objetos, escondendo os dados de uma classe e tornando-os dispon√≠veis somente atrav√©s de m√©todos. 
  
-22 ñ Qual o objetivo dos mÈtodos getters? Crie um exemplo. 
+22 ‚Äì Qual o objetivo dos m√©todos getters? Crie um exemplo. 
 
-O uso do  get È usado para obter informaÁıes. Esse tipo de mÈtodo sempre retorna um valor. 
+O uso do  get √© usado para obter informa√ß√µes. Esse tipo de m√©todo sempre retorna um valor. 
 
-23 ñ Qual o objeitivo dos mÈtodos setters? Crie um exemplo 
+23 ‚Äì Qual o objeitivo dos m√©todos setters? Crie um exemplo 
 
-O uso do set para definir valores. Esse tipo de mÈtodo geralmente n„o retorna valores. 
+O uso do set para definir valores. Esse tipo de m√©todo geralmente n√£o retorna valores. 
 
-24 ñ O diagrama de classe UML È composto por 3 partes. O que vai em cada parte? 
+24 ‚Äì O diagrama de classe UML √© composto por 3 partes. O que vai em cada parte? 
 
-Nome da classe, atributos e mÈtodos. 
+Nome da classe, atributos e m√©todos. 
 
-25 ñ Qual È o padr„o utilizado para representar em atributo no diagrama de classe UML? Crie um exemplo. 
+25 ‚Äì Qual √© o padr√£o utilizado para representar em atributo no diagrama de classe UML? Crie um exemplo. 
 
 Clientes 
 -codPessoa 
@@ -146,16 +153,17 @@ Clientes
 +setCadastrar() 
 +getConsultar() 
  
-26 ñ Qual È o padr„o utilizado para representar um mÈtodo no diagrama de classe UML? Crie um exemplo? 
+26 ‚Äì Qual √© o padr√£o utilizado para representar um m√©todo no diagrama de classe UML? Crie um exemplo? 
 
-Uma classe È representada por um ret‚ngulo com trÍs divisıes, s„o elas: O nome da classe, seus atributos e por fim os mÈtodos.
+Uma classe √© representada por um ret√¢ngulo com tr√™s divis√µes, s√£o elas: O nome da classe, seus atributos e por fim os m√©todos.
 
- 27 ñ Como o construtor de uma classe pode ser diferenciado no diagrama de classe UML? Cite um exemplo. 
+ 27 ‚Äì Como o construtor de uma classe pode ser diferenciado no diagrama de classe UML? Cite um exemplo. 
 
-R
+Utilizando o <<create>> antes do metodo que leva o nome da classe. 
+<< create >>+Livro(autor:String, titulo: String) 
 
-28 - Quais s„o os sÌmbolos utilizados no diagrama de classe UML para representar 
-os modificadores de acessos ao atributos e mÈtodos? Crie um exemplo.
+28 - Quais s√£o os s√≠mbolos utilizados no diagrama de classe UML para representar 
+os modificadores de acessos ao atributos e m√©todos? Crie um exemplo.
  
 + public 
 -  private 
@@ -167,9 +175,43 @@ Clientes
 +getConsultar() 
  
 29 - Considere a classe Cliente, com os atributos nome, e-mail e telefone com os 
-respectivos mÈtodos getters e setters. Desenvolva o diagrama de classe UML. 
+respectivos m√©todos getters e setters. Desenvolva o diagrama de classe UML. 
 
-R
+|Cliente                   |
+|--------------------------|
+|-nome: String             |
+|-email: String            |
+|-telefone: int            |
+|--------------------------|
+|+getNome(): String        |
+|+setNome(nome: String)    |
+|+getEmail(): String       |
+|+setEmail(email: String)  |
+|+getTel(): int            |
+|+setTel(tel: int)         |
 
-30 - Considere a classe Cliente apresentado no Problema 29, e desenvolva o cÛdigo 
+30 - Considere a classe Cliente apresentado no Problema 29, e desenvolva o c√≥digo 
 Java correspondente.
+public class Cliente{  
+    private String nome;  
+    private String email; 
+    private int telefone;  
+    public String getNome() { 
+        return nome; 
+    } 
+    public void setNome(String nome) { 
+        this.nome = nome; 
+    }  
+    public String getEmail() { 
+        return email; 
+    } 
+    public void setEmail(String email) { 
+        this.email = email; 
+    } 
+    public int getTelefone() { 
+        return telefone; 
+    } 
+    public void setTelefone(int telefone) { 
+        this.telefone = telefone; 
+    } 
+} 
